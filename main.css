@@ -1,0 +1,107 @@
+/*accent color*/
+/*color:#D8829E;*/
+
+
+@font-face {
+  font-family: 'Glasoor';
+  src: url('fonts/Glasoor.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Glasoor.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Glasoor.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Glasoor.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Glasoor.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Glasoor.svg#svgGlasoor') format('svg'); /* Legacy iOS */
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #878ABA;
+  text-align: center;
+}
+
+.section-title{
+  margin: 0 auto;
+  color: #E6E1C5;
+  font-family: 'Glasoor';
+  width: 10em;
+  letter-spacing: .2em;
+  font-size: 2em;
+}
+
+p{
+  color: #3F619B;
+}
+
+section p{
+  margin: 3em auto;
+  width: 20em;
+  font-weight: 400;
+  letter-spacing: .1em;
+}
+
+/*HEADER*/
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2em;
+}
+
+.logo{
+  font-family: 'Glasoor';
+  color:#E6E1C5;
+  font-size: 3em;
+}
+
+header ul{
+  margin-top: 3em;
+}
+
+ul li{
+  display: inline;
+  list-style-type: none;
+  font-size: 150%;
+  font-weight: bold;
+  margin: 0 1em;
+}
+
+ul li a{
+  color: #E6E1C5;
+  text-decoration: none;
+  letter-spacing: .1em;
+}
+
+ul li a:hover{
+  text-decoration: underline;
+}
+
+/*HOME CONTENT*/
+.home{
+  margin-top: 3em;
+}
+.home img{
+  width: 40em;
+  height: 20em;
+  border: 0.5em solid #D8829E;
+}
+
+
+/*MINI GAME*/
+
+
+/*ABOUT*/
+
+
+/*FOOTER*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1em;
+  font-family: 'Glasoor';
+}
+
+footer p{
+  color: #3F619B;
+}
+
+footer a{
+  color: #3F619B;
+}
