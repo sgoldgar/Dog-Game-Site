@@ -1,0 +1,55 @@
+/*HEADER*/
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2em;
+}
+
+.logo{
+  font-family: 'Glasoor';
+  color:#E6E1C5;
+  font-size: 3em;
+}
+
+header ul{
+  margin-top: 3em;
+}
+
+ul li{
+  display: inline;
+  list-style-type: none;
+  font-size: 150%;
+  font-weight: bold;
+  margin: 0 1em;
+}
+
+ul li a{
+  color: #E6E1C5;
+  text-decoration: none;
+  letter-spacing: .1em;
+  font-family: 'Glasoor';
+}
+
+ul li a:hover{
+  text-decoration: underline;
+}
+
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px) {
+  header ul {
+      margin-top: 3em;
+      width: 28em;
+      margin-left: -2em;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  header ul {
+      display: inline-flex;
+  }
+}

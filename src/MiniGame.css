@@ -1,0 +1,29 @@
+.sidebar{
+  width: 10em;
+  margin-left: -12em;
+  display: inline-block;
+}
+
+.sidebar img{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.main{
+  display: inline-block;
+  width: 10em;
+}
+.main img {
+  height: 10em;
+}
+
+figcaption{
+  letter-spacing: .1em;
+  font-family: 'Happy Monkey';
+  font-weight: bolder;
+  color:#354882;
+  line-height: 4;
+  margin-left: 1.5em;
+}

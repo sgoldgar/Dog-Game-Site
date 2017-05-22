@@ -1,0 +1,16 @@
+.about p:first-of-type{
+  text-align: justify;
+}
+
+.about p{
+  width: 30em;
+}
+
+span{
+  color: #E6E1C5;
+}
+
+span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}

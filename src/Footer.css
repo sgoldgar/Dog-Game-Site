@@ -1,0 +1,17 @@
+/*FOOTER*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1em;
+  font-family: 'Glasoor';
+}
+
+footer p{
+  color: #E6E1C5;
+  letter-spacing: 0.1em;
+}
+
+footer a{
+  color: #E6E1C5;
+  letter-spacing: 0.1em;
+}

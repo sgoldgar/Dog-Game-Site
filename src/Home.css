@@ -1,0 +1,45 @@
+/*HOME CONTENT*/
+.home{
+  margin-top: 3em;
+}
+
+.content img{
+  width: 40em;
+  height: 20em;
+}
+
+.home p{
+  width: 30em;
+}
+
+
+/*Carousel*/
+.carouselbox {
+  width: 40em;
+  height: 20em;
+  border: 0.5em solid #fda0bf; /*#eca3bb;*/
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-image{
+  width: 100%;
+  height: 100%;
+}
+
+.carouselbox i{
+  z-index: 1;
+  position: absolute;
+  color: white;
+}
+
+#arrow-left{
+  margin-top: 20%;
+  margin-left: 3%;
+}
+
+#arrow-right{
+  margin-top: 20%;
+  margin-left: -50px;
+}
