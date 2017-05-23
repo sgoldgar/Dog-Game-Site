@@ -1,10 +1,10 @@
 .sidebar{
   width: 10em;
-  margin-left: -12em;
+  margin-left: -3em;
   display: inline-block;
 }
 
-.sidebar img{
+.sidebar img, .accessories img{
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -19,8 +19,12 @@
   display: inline-block;
   width: 10em;
 }
-.main img {
+.dogpic {
   height: 10em;
+}
+
+figure{
+  width: 11em;
 }
 
 figcaption{
@@ -30,4 +34,28 @@ figcaption{
   color:#354882;
   line-height: 4;
   margin-left: 1.5em;
+}
+
+/*Accessories*/
+.accessories{
+  display: inline-block;
+  margin-left: 8em;
+}
+.accessorypic{
+  display: inline-block;
+  float: right;
+}
+
+.bone{
+  margin-top: 6em;
+  margin-left: -2em;
+  position: absolute;
+  width: 7em;
+}
+
+.present{
+  margin-top: 3em;
+  margin-left: -5em;
+  position: absolute;
+  height: 10em;
 }
