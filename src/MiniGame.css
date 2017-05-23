@@ -11,6 +11,10 @@
   padding: 1em;
 }
 
+.sidebar img:hover{
+  cursor: pointer;
+}
+
 .main{
   display: inline-block;
   width: 10em;

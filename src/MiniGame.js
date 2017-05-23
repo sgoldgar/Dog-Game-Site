@@ -27,14 +27,11 @@ class MiniGame extends Component {
     }
   }
 
-  componentDidMount(props){
-    this.setState({dogSelected:this.state.dogs.ginny})
-  }
   render() {
     return (
       <section className="mini-game">
         <h2 className="section-title">MINI-GAME</h2>
-        <p>Click on a dog and add some accessories to help them get ready for the dog party!</p>
+        <p>Click on a dog and add some accessories to help them get ready for the party!</p>
         <div className="sidebar">
           <img src={Ginny} alt="ginnydog" onClick={() => {this.setState({dogSelected: this.state.dogs.ginny})}}/>
           <img src={Ranger} alt="rangerdog" onClick={() => {this.setState({dogSelected: this.state.dogs.ranger})}}/>
