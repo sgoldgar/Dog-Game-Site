@@ -69,6 +69,7 @@ class MiniGame extends Component {
         <div className="accessories">
           <img src={Bone} alt="bone" onClick={() => {this.setState({accessorySelected: this.state.accessories.bone})}}/>
           <img src={Present} alt="present" onClick={() => {this.setState({accessorySelected: this.state.accessories.present}); this.toggleClass()}}/>
+          <img src={partyFwee} alt="party" onClick={() => {this.setState({accessorySelected: this.state.accessories.partyfwee}); this.toggleClass()}}/>
         </div>
       </section>
     );

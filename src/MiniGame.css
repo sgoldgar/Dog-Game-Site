@@ -59,3 +59,10 @@ figcaption{
   position: absolute;
   height: 10em;
 }
+
+.partyFwee{
+  position: absolute;
+  transform: rotate(180deg);
+  margin-top: 2em;
+  margin-left: -8em;
+}
