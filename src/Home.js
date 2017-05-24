@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Home.css';
 import Zilker from './img/Zilker.png';
+import Capitol from './img/capitol.png';
+import GinnyDog from './img/image2.jpg';
 
 
 
@@ -10,8 +12,8 @@ class Home extends Component {
     this.state = {
       carouselImages: [
         Zilker,
-        'http://www.doodycalls.com/wp-content/uploads/2017/02/dogrunning.jpg',
-        './img/image2.jpg'
+        Capitol,
+        GinnyDog
       ],
       clickStage: 0
     }
