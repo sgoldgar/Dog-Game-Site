@@ -36,16 +36,12 @@ class MiniGame extends Component {
         }
       },
       dogSelected:{
-        ginny: {
           name: 'ginny',
           picture: Ginny
-        }
       },
       accessorySelected:{
-        bone: {
           picture: Bone,
           className: "bone accessorypic"
-        }
       }
     }
     this.toggleClass = this.toggleClass.bind(this);

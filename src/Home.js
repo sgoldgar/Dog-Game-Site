@@ -20,7 +20,7 @@ class Home extends Component {
   }
 
   carouselRight(){
-    if(this.state.clickStage<this.state.carouselImages.length){
+    if(this.state.clickStage<this.state.carouselImages.length-1){
       this.setState({clickStage: (this.state.clickStage + 1)})
     }
     else {

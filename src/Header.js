@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <h1 className="logo">PAWSTIN FOUND</h1>
+        <h1 className="logo">PAW-STIN FOUND</h1>
         <nav>
           <ul>
             <li><a href='#'>home</a></li>
