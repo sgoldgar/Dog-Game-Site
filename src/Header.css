@@ -2,7 +2,14 @@
 header{
   display: flex;
   justify-content: space-between;
-  margin: 0 2em;
+  margin: 0 4em 6em 4em;
+  top: 0;
+  background-color: #9397d6;
+  padding-right: 2em;
+  width: 90%;
+  z-index: 2;
+  position: fixed;
+  padding-top: 2em;
 }
 
 .logo{
@@ -45,7 +52,7 @@ ul li a:hover{
   }
 }
 
-@media only screen 
+@media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1) {

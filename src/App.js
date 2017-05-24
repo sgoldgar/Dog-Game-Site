@@ -6,6 +6,7 @@ import MiniGame from './MiniGame.js';
 import About from './About.js';
 import Footer from './Footer.js';
 
+
 class App extends Component {
   render() {
     return (

@@ -39,7 +39,7 @@ class Home extends Component {
 
   render() {
     return (
-      <section className="home">
+      <section id="home" className="home">
         <div className="carouselbox">
             <i onClick={this.carouselLeft} id="arrow-left" className="fa fa-3x fa-arrow-left" aria-hidden="true"></i>
             <img className="carousel-image" src={this.state.carouselImages[this.state.clickStage]} alt="img"/>

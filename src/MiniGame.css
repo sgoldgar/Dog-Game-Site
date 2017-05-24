@@ -36,6 +36,11 @@ figcaption{
   margin-left: 1.5em;
 }
 
+.Ranger{
+  margin-left: 3em;
+  height: 8em;
+}
+
 /*Accessories*/
 .accessories{
   display: inline-block;
@@ -60,9 +65,20 @@ figcaption{
   height: 10em;
 }
 
-.partyFwee{
+.party-fwee{
   position: absolute;
   transform: rotate(180deg);
   margin-top: 2em;
+  margin-left: -9em;
+  height: 5em;
+  width: 6em;
+}
+
+.party-hat{
+  position: absolute;
   margin-left: -8em;
+  height: 6em;
+  width: 7em;
+  margin-top: -3.5em;
+  transform: rotate(10deg);
 }

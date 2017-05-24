@@ -3,8 +3,9 @@ import './MiniGame.css';
 import Ginny from './img/Ginny.png';
 import Ranger from './img/Ranger.png';
 import Bone from './img/Bone.png';
-import partyFwee from './img/Party Fwee.png';
+import PartyFwee from './img/Party Fwee.png';
 import Present from './img/Present.png';
+import PartyHat from './img/Partyhat.png';
 
 
 class MiniGame extends Component {
@@ -14,11 +15,13 @@ class MiniGame extends Component {
       dogs : {
         ranger: {
           name : 'ranger',
-          picture: Ranger
+          picture: Ranger,
+          className: "Ranger dogpic"
         },
         ginny: {
           name: 'ginny',
-          picture: Ginny
+          picture: Ginny,
+          className: "Ginny dogpic"
         }
       },
       accessories: {
@@ -31,13 +34,18 @@ class MiniGame extends Component {
           className: "present accessorypic"
         },
         partyfwee:{
-          picture: partyFwee,
-          className: "partyFwee accessorypic"
+          picture: PartyFwee,
+          className: "party-fwee accessorypic"
+        },
+        partyhat:{
+          picture: PartyHat,
+          className: "party-hat accessorypic"
         }
       },
       dogSelected:{
           name: 'ginny',
-          picture: Ginny
+          picture: Ginny,
+          className: "Ginny dogpic"
       },
       accessorySelected:{
           picture: Bone,
@@ -52,7 +60,7 @@ class MiniGame extends Component {
 
   render() {
     return (
-      <section className="mini-game">
+      <section id="minigame" className="mini-game">
         <h2 className="section-title">MINI-GAME</h2>
         <p>Click on a dog and add some accessories to help them get ready for the party!</p>
         <div className="sidebar">
@@ -61,7 +69,7 @@ class MiniGame extends Component {
         </div>
         <div className="main">
           <figure>
-            <img className="dogpic" src={this.state.dogSelected.picture} alt="dogpic"/>
+            <img className={this.state.dogSelected.className} src={this.state.dogSelected.picture} alt="dogpic"/>
             <img className={this.state.accessorySelected.className} src={this.state.accessorySelected.picture} alt="accessorypic"/>
             <figcaption>{this.state.dogSelected.name}</figcaption>
           </figure>
@@ -69,7 +77,8 @@ class MiniGame extends Component {
         <div className="accessories">
           <img src={Bone} alt="bone" onClick={() => {this.setState({accessorySelected: this.state.accessories.bone})}}/>
           <img src={Present} alt="present" onClick={() => {this.setState({accessorySelected: this.state.accessories.present}); this.toggleClass()}}/>
-          <img src={partyFwee} alt="party" onClick={() => {this.setState({accessorySelected: this.state.accessories.partyfwee}); this.toggleClass()}}/>
+          <img src={PartyFwee} alt="party" onClick={() => {this.setState({accessorySelected: this.state.accessories.partyfwee}); this.toggleClass()}}/>
+          <img src={PartyHat} alt="partyhat" onClick={() => {this.setState({accessorySelected: this.state.accessories.partyhat}); this.toggleClass()}}/>
         </div>
       </section>
     );
